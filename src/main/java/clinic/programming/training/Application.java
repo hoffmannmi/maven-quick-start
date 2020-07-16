@@ -28,6 +28,5 @@ public class Application {
     	System.out.println ("Starting Application");
 		Application app = new Application();
 		app.doSomeMagicStuff();
-		app.countWords("Here u are");
-    }
+		System.out.println ("Count result " + app.countWords("Here u are"));    }
 }
